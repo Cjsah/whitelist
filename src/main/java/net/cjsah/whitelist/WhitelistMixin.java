@@ -7,7 +7,6 @@ import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(Whitelist.class)
 public abstract class WhitelistMixin {
-
 	/**
 	 * @author Cjsah
 	 * @reason 使白名单匹配名字而不再匹配uuid
@@ -16,6 +15,4 @@ public abstract class WhitelistMixin {
 	public String toString(GameProfile gameProfile) {
 		return gameProfile.getName();
 	}
-
-
 }
