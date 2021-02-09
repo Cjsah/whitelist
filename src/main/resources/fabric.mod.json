@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "whitelist",
+  "version": "${version}",
+
+  "name": "White List",
+  "description": "Change whitelist match player's name replace UUID!",
+  "authors": [
+    "Cjsah"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Cjsah",
+    "sources": "https://github.com/Cjsah/whitelist",
+    "issues": "https://github.com/Cjsah/whitelist/issues"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/whitelist/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "whitelist.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.15"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
