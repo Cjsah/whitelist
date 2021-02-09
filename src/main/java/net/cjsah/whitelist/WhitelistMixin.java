@@ -9,9 +9,8 @@ import org.spongepowered.asm.mixin.Overwrite;
 public abstract class WhitelistMixin {
 
 	/**
-	 * 白名单匹配名字而不再匹配uuid
 	 * @author Cjsah
-	 * @return name
+	 * @reason 使白名单匹配名字而不再匹配uuid
 	 */
 	@Overwrite
 	public String toString(GameProfile gameProfile) {
